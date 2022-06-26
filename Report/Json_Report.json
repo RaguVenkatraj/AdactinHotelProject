@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user Login Into The Web Application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-into-the-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42626016770,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Definition.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143475053,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The Username In Username Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Username_In_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130435460,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Enter The Password In Password Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2682113931,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Click The Login Button and It Navigate To The Search Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Click_The_Login_Button_and_It_Navigate_To_The_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "user Move To Select Location Page",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-move-to-select-location-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165172610,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Select  location Of The Hotel",
+            "match": {
+              "location": "Step_Definition.user_Select_location_Of_The_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117393206,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Select  Name Of The Hotel",
+            "match": {
+              "location": "Step_Definition.user_Select_Name_Of_The_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119304064,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Select  Roomtype In Hotel",
+            "match": {
+              "location": "Step_Definition.user_Select_Roomtype_In_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127913372,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Select The Numberofrooms In Hotel",
+            "match": {
+              "location": "Step_Definition.user_Select_The_Numberofrooms_In_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292345511,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user Enter the  Checkindate",
+            "match": {
+              "location": "Step_Definition.user_Enter_the_Checkindate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271482315,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Enter The  Checkoutdate",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Checkoutdate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131838859,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Select Adults Per Room",
+            "match": {
+              "location": "Step_Definition.user_Select_Adults_Per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186069637,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user Select Children Per Room",
+            "match": {
+              "location": "Step_Definition.user_Select_Children_Per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1937947518,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user Click The Search Button And It Will Navigate To Select Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Click_The_Search_Button_And_It_Will_Navigate_To_Select_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "user Move To Select Hotel Page",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-move-to-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90357262,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user Click The Radio Button To Select Hotel",
+            "match": {
+              "location": "Step_Definition.user_Click_The_Radio_Button_To_Select_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1778650784,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Click Continue Button And It Will Navigate To Book Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Click_Continue_Button_And_It_Will_Navigate_To_Book_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "user Move TO Book Hotel Page",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-move-to-book-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102814893,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user Enter The Firstname In Firstname Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Firstname_In_Firstname_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93288737,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user Enter The Lastname In Lastname Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Lastname_In_Lastname_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96889602,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user Enter The Billing Address In Billing Address Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Billing_Address_In_Billing_Address_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153537555,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user Enter The  Sixteen  Digit Credit Card Number In Respective Filed",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Sixteen_Digit_Credit_Card_Number_In_Respective_Filed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224893823,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user Select The Credit Card Type",
+            "match": {
+              "location": "Step_Definition.user_Select_The_Credit_Card_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250413474,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user Select The Month In Expiry Date Field",
+            "match": {
+              "location": "Step_Definition.user_Select_The_Month_In_Expiry_Date_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367447088,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user Select The Year In Expiry Date Field",
+            "match": {
+              "location": "Step_Definition.user_Select_The_Year_In_Expiry_Date_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204017703,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user Enter The Cvv Number In Respective Field",
+            "match": {
+              "location": "Step_Definition.user_Enter_The_Cvv_Number_In_Respective_Field()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 62,
+        "name": "user Move To Logout Page",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-move-to-logout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1166414458,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user Click The Logout Button And It Will Logout The User",
+            "match": {
+              "location": "Step_Definition.user_Click_The_Logout_Button_And_It_Will_Logout_The_User()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking In Adactin Application",
+    "description": "",
+    "id": "hotel-booking-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
